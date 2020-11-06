@@ -35,4 +35,13 @@ Päivä | Aika | Tehtävät
 ### Järjestelmän konfigurointi  
 Lataa node_modules  
   
-````testi````
+````
+npm intall
+````  
+Käynnistä projekti paikallisesti porttiin 3000  
+
+````
+npm start
+````
+
+

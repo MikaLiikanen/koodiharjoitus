@@ -35,6 +35,4 @@ Päivä | Aika | Tehtävät
 ### Järjestelmän konfigurointi  
 Lataa node_modules  
   
-´´´´
-testi
-´´´´
+````testi````

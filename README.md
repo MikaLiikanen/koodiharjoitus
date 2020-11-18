@@ -34,9 +34,11 @@ Päivä | Aika | Tehtävät
 Yht | 13h |
   
 ## Työvaiheet    
-### Ledin kytkentä    
+### Ledin kytkentä  
+![Ledinvilkuttaminen asennus kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledinvilkuttaminen%20asennus%20kuva.jpg)  
+![Ledinvilkuttaminen kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledinvilkuttaminen%20kuva.jpg)  
+Ledi menee päälle kun photoni liitetään virtalähteeseen
 
-  
 ````
 npm intall
 ````  

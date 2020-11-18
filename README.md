@@ -69,8 +69,11 @@ void loop() {
   delay(1000);
 
 }
+  
 ````  
-Käynnistä projekti paikallisesti porttiin 3000  
+### Web-käyttöliittymän rakentaminen LED:n hallintaa varten  
+![Ledi kontrolli web liittymällä kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledi%20kontrolli%20web%20liittym%C3%A4ll%C3%A4%20kuva.jpg)  
+
 
 ````
 npm start

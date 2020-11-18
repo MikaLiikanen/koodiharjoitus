@@ -32,7 +32,7 @@ Päivä | Aika | Tehtävät
 
   
 ## Työvaiheet    
-### Järjestelmän konfigurointi  
+### Ledinvilkuttaminen  
 Lataa node_modules  
   
 ````

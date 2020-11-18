@@ -27,13 +27,15 @@ Säätietojen selaaminen valitulla aikavälillä.
 ## Työaikakirjanpito  
 Päivä | Aika | Tehtävät
 ------|------|--------
+21.10 | 3h | Ledin kytkentä
 30.10 | 4h | Ledinvilkuttaminen
 04.11 | 3h | Web-käyttöliittymän rakentaminen LED:n hallintaa varten
-
+18.11 | 3h | Valoisuuden mittaaminen photosensorilla
+Yht | 13h |
   
 ## Työvaiheet    
-### Ledinvilkuttaminen  
-Lataa node_modules  
+### Ledin kytkentä    
+
   
 ````
 npm intall

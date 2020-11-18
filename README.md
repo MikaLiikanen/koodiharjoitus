@@ -73,10 +73,35 @@ void loop() {
 ````  
 ### Web-käyttöliittymän rakentaminen LED:n hallintaa varten  
 ![Ledi kontrolli web liittymällä kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledi%20kontrolli%20web%20liittym%C3%A4ll%C3%A4%20kuva.jpg)  
-
+Ledi syttyy ja sammuu kuvassa olevien nappien mukaan  
 
 ````
-npm start
-````
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <<center>
+      <br />
+      <br />
+      <br />
+      <form action= "https://api.particle.io/v1/devices/devoceid/led?access_token=accestoken" method="post">
+      LED:n kontrollointi web-käyttöliittymällä
+      <br />
+      <br />
+      <input name="arg" type="radio" value="on" />
+      Sytytä LED. 
+      <br />
+      <input name="arg" type="radio" value="off"/>
+      Sammuta LED. 
+      <br />
+      <br />
+    <input type="submit" value="valmis" />
+      </form>
+    </center>
+  </body>
+  </html>
+````  
+
 
 

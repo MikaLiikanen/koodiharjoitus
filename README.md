@@ -31,7 +31,8 @@ Päivä | Aika | Tehtävät
 30.10 | 4h | Ledinvilkuttaminen
 04.11 | 3h | Web-käyttöliittymän rakentaminen LED:n hallintaa varten
 18.11 | 3h | Valoisuuden mittaaminen photosensorilla
-Yht | 13h |
+18.11 | 1h | Sääasema - kosteuden ja lämmön mittaaminenTehtävä
+Yht | 14h |
   
 ## Työvaiheet    
 ### Ledin kytkentä  

@@ -102,6 +102,9 @@ Ledi syttyy ja sammuu kuvassa olevien nappien mukaan
   </body>
   </html>
 ````  
+### Valoisuuden mittaaminen photosensorilla  
+![Valosensori rakennus](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Valosensori%20rakennus.jpg)  
+![Valosensori kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Valosensori%20kuva.jpg)
 
 
 

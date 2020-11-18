@@ -73,7 +73,7 @@ void loop() {
 ````  
 ### Web-käyttöliittymän rakentaminen LED:n hallintaa varten  
 ![Ledi kontrolli web liittymällä kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledi%20kontrolli%20web%20liittym%C3%A4ll%C3%A4%20kuva.jpg)  
-Ledi syttyy ja sammuu kuvassa olevien nappien mukaan  
+Ledi syttyy ja sammuu kuvassa olevien nappien mukaan. Kuvat ovat samat kuin edellisessä kohdassa.  
 
 ````
 <html>
@@ -104,7 +104,55 @@ Ledi syttyy ja sammuu kuvassa olevien nappien mukaan
 ````  
 ### Valoisuuden mittaaminen photosensorilla  
 ![Valosensori rakennus](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Valosensori%20rakennus.jpg)  
-![Valosensori kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Valosensori%20kuva.jpg)
+![Valosensori kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Valosensori%20kuva.jpg)  
+Sensori mittaa vallon määrää. Peittää sensorin lukema on pienenpi.  
 
+````
+int led = D6; 
+
+int photosensor = A0; 
+//valitaan sensori ja ledi
+int analogvalue; 
+
+int ledToggle(String command); 
+
+void setup() {
+    
+    Serial.begin();
+
+    pinMode(led, OUTPUT); 
+    digitalWrite(led, HIGH);
+
+    Particle.variable("analogvalue", &analogvalue, INT);
+
+    Particle.function("led",ledToggle);
+
+}
+
+void loop() {
+
+    analogvalue = analogRead(photosensor);
+
+    Serial.printlnf("%d", analogvalue);
+
+    delay(100);
+}
+
+
+int ledToggle(String command) {
+
+    if (command=="on") {
+        digitalWrite(led,HIGH);
+        return 1;
+    }
+    else if (command=="off") {
+        digitalWrite(led,LOW);
+        return 0;
+    }
+    else {
+        return -1;
+    }
+}
+````  
 
 

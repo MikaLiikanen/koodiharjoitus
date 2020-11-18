@@ -37,10 +37,38 @@ Yht | 13h |
 ### Ledin kytkentä  
 ![Ledinvilkuttaminen asennus kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledinvilkuttaminen%20asennus%20kuva.jpg)  
 ![Ledinvilkuttaminen kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Ledinvilkuttaminen%20kuva.jpg)  
-Ledi menee päälle kun photoni liitetään virtalähteeseen
+Ledi menee päälle kun photoni liitetään virtalähteeseen  
+
+### Ledinvilkuttaminen  
+![WebkäyttöliittymänrakentaminenLedinhallintaavarten asennus kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Webk%C3%A4ytt%C3%B6liittym%C3%A4nrakentaminenLedinhallintaavarten%20asennus%20kuva.jpg)  
+![WebkäyttöliittymänrakentaminenLedinhallintaavarten kuva](https://github.com/MikaLiikanen/koodiharjoitus/blob/master/Webk%C3%A4ytt%C3%B6liittym%C3%A4nrakentaminenLedinhallintaavarten%20kuva.jpg)  
+Ledit vilkkuvat kun photoni liitetään virtalähteeseen
 
 ````
-npm intall
+int led1 = D6; 
+int led2 = D7; 
+// valitan oikeat ledit
+void setup() {
+
+  pinMode(led1, OUTPUT);
+
+  pinMode(led2, OUTPUT);
+
+}
+
+void loop() {
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+// määritellään ledin päälle ja pois meno aika
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+}
 ````  
 Käynnistä projekti paikallisesti porttiin 3000  
 

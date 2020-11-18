@@ -31,7 +31,7 @@ Päivä | Aika | Tehtävät
 04.11 | 3h | Web-käyttöliittymän rakentaminen LED:n hallintaa varten
 
   
-## Käyttöohje  
+## Työvaiheet    
 ### Järjestelmän konfigurointi  
 Lataa node_modules  
   
